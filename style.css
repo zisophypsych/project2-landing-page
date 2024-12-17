@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 100vh;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, 
+    Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.header, .card, .footer {
+    background-color: #1F2937;
+    color: white;
+}
+
+.header {
+    display: flex;
+    padding: 16px;
+    padding: 16px 100px;
+}
+
+.card-header {
+    font-size: 38px;
+    font-weight: 900;
+    text-align: start;
+    margin: 8px 0px;
+}
+
+.card-info {
+    text-align: start;
+}
+
+.card-button {
+    margin: 16px 0px;
+    color: white;
+    background-color:  #3882F6;
+    padding: 8px 16px;
+    font-weight: 900;
+    border-radius: 8px;
+
+}
+
+
+.header-logo {
+    display: flex;
+    flex-grow: 1;
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 700;
+}
+
+.right-header-links {
+    display: flex;
+    gap: 12px;
+}
+
+.card {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 48px 100px;
+    gap: 32px;
+}
+
+.info {
+    flex: 1;
+    padding: 0px 100px;
+}
+
+.info-header {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    padding: 42px;
+}
+
+
+.info-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 32px;
+    margin-bottom: 56px;
+}
+
+.single-card {
+    max-width: 350px;
+}
+
+.quote {
+    flex: 1;
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    background-color: #E5E7EB;
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    padding: 50px 200px;
+}
+
+#naval-ravikant {
+    text-align: end;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.call-to-action {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 8px;
+    padding: 16px;
+}
+
+.cta-inside {
+    display: flex;
+    background-color: #3882F6;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 72px;
+    border-radius: 8px;
+    color: white;
+    gap: 70px;
+}
+
+.cta-header {
+    font-size: 36px;
+    text-align: start;
+    font-weight: 600;
+    
+}
+
+.cta-button {
+    color: white;
+    background-color:  #3882F6;
+    border-color: white;
+    padding: 8px 16px;
+    font-weight: 900;
+}
+
+.footer {
+    padding: 16px;
+}
+
+a {
+    list-style: none;
+    color: white
+}
