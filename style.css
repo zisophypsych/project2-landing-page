@@ -29,11 +29,11 @@ body {
 .header {
     display: flex;
     padding: 16px;
-    padding: 16px 100px;
+    padding: 16px 150px;
 }
 
 .card-header {
-    font-size: 38px;
+    font-size: 48px;
     font-weight: 900;
     text-align: start;
     margin: 8px 0px;
@@ -160,5 +160,6 @@ body {
 
 a {
     list-style: none;
-    color: white
+    color: white;
+    text-decoration: none;
 }
